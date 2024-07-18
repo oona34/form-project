@@ -23,19 +23,38 @@
     <div class="page-container">
         <header>
             <figure>
-                <img src="../resources/logo-windsock.png" alt="">
+                <a href="index.html">
+                    <img src="../resources/logo-windsock.png" alt="logo-windsock">
+                </a>
             </figure>
             <nav aria-label="Main">
                 <ul>
-                    <li><a href="" aria-current="page">Current Page</a></li>
-                    <li><a href="">Another Page</a></li>
-                    <li><a href="">Another Page</a></li>
+                    <li><a href="index.html" aria-current="page">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Pricing</a></li>
                 </ul>
             </nav>
         </header>
         <main>
             <div class="form-container">
+                <p>Join us in Ventspils and soar to new heights !</p>
                 <form action="">
+                    <p>
+                        <label for="name">Name</label>
+                        <input type="text" name="user-name" id="name">
+                    </p>
+                    <p>
+                            <label for="email">Email</label>
+                            <input type="email" name="user-email" id="email">
+                    </p>
+                    <p>
+                        <label for="password">Password</label>
+                        <input type="password" name="user-pass" id="password">
+                    </p>
+                    <p>
+                    <label for="pass-conf">Confirm password</label>
+                    <input type="password" name="user-pass-conf" id="pass-conf">
+                    </p>
                 </form>
             </div>
         </main>
